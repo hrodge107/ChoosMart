@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="images\agnas.png" />
     <Content Include="images\desserts.svg" />
     <Content Include="images\drinks.svg" />
