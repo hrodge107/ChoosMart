@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="ChoosMart_App.Template" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div id="searchBarWrapper">
+                <asp:TextBox ID="txtSearchBar" runat="server" placeholder="Search" CssClass="searchBar"></asp:TextBox> 
+            </div>
+        </header>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer>
+            <div class="footerIcon">
+                <p>Home</p>
+            </div>
+
+            <div class="footerIcon">
+                <p>Cart</p>
+            </div>
+
+            <div class="footerIcon">
+                <p>Settings</p>
+            </div>
+
+            <div class="footerIcon">
+                <p>Profile</p>
+            </div>
+        </footer>
+
+    </form>
+</body>
+</html>
