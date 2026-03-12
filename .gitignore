@@ -1,0 +1,19 @@
+## Visual Studio
+.vs/
+.vscode/
+
+## Copilot
+.copilot/
+*.copilot
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+bin/
+obj/
+packages/
